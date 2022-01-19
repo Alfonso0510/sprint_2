@@ -1,0 +1,22 @@
+{
+  "name": "sprint_2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000p\u0000r\u0000i\u0000n\u0000t\u0000_\u00002\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfonso0510/sprint_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfonso0510/sprint_2/issues"
+  },
+  "homepage": "https://github.com/Alfonso0510/sprint_2#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="sass/main.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-light">
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md mynav">
+        <div class="container">
+            <!-- LOGO PAGINA -->
+            <a href="#" class="nav-brand">
+                <img src="img/logo-bookmark.svg" alt="Logo empresa">
+            </a>
+            <!-- BOTON COLLAPSE -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal"
+                aria-controls="menu-principal" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- ELEMENTOS COLAPSADOS -->
+            <div class="collapse navbar-collapse justify-content-end" id="menu-principal">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-secondary text-light" type="submit">LOGIN</button>
+            </div>
+        </div>
+    </nav>
+    <!-- CONTENIDO PRINCIPAL A SIMPLE BOOKMARK MANAGER-->
+    <section class="main-section py-5 mt-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="img/illustration-hero.svg" alt="Imagen principal" class="img-fluid mb-4">
+                </div>
+                <div class="col-12 col-md-6 order-md-first text-center">
+                    <h1 class="fw-bold">A Simple Bookmark Manager</h1>
+                    <p class="text-justify">A clean an simple interface to organize your favourite websites. Open a new browser tab and see
+                        your sites load instantly. Try it for free</p>
+                    <button type="button" class="btn btn-primary shadow-lg">Get it on Chrome</button>
+                    <button type="button" class="btn btn-light shadow-lg">Get it on Firefox</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ARCHIVOS JAVASCRIPT -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
