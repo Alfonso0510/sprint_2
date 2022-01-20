@@ -24,6 +24,12 @@ a:hover{
     background-color:white;
 }
 
+//Formato de cards con nt-child 
+.card:nth-child(odd) { 
+    color: grey; 
+    font-weight: bold;  
+}
+
 
 
 //Importacion archivos necesarios 
