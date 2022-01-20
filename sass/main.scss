@@ -3,5 +3,28 @@ $primary: #5265E1;
 $secondary: #FA5959;
 $success: #242946;
 
+//Funcionalidades hover de los enlaces
+.mynav a:hover{
+    border-bottom: 2px solid #fa5959;
+}
+
+.mynav button:hover{
+    background-color: white;
+}
+
+a:hover{
+    border-bottom: 2px solid #fa5959;
+}
+
+.buttonInfo button:hover{
+    background-color:white;
+}
+
+.buttonInfo a:hover{
+    background-color:white;
+}
+
+
+
 //Importacion archivos necesarios 
 @import '../node_modules/bootstrap/scss/bootstrap';
